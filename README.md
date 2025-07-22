@@ -25,10 +25,10 @@
    DOMAIN="yourdomain.com"
    PORT="3000"
 
-2. Make the Script Executable by Giving Permission
-	chmod +x ssl-certbot.sh
+2. Make the Script Executable by Giving Permission 
+	"chmod +x ssl-certbot.sh"
 
-3. Run the Script
-	./ssl-certbot.sh
+3. Run the Script 
+	"./ssl-certbot.sh"
 
 ⚠️ Make sure your domain (e.g., via Route53 or any DNS provider) is already pointing to your EC2 instance IP before running this script.
